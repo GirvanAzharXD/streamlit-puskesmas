@@ -162,7 +162,7 @@ with col1:
     max_val = max(df_cleaned['alokasi'].max(), df_cleaned['realisasi'].max())
     ax.plot([0, max_val], [0, max_val], color='red', linestyle='--', label='Realisasi 100%')
 
-    ax.set_title('Hubungan antara Alokasi dan Realisasi Dana (Disederhanakan)', fontsize=16, pad=20, color='white')
+    ax.set_title('Hubungan antara Alokasi dan Realisasi Dana', fontsize=16, pad=20, color='white')
     ax.set_xlabel('Alokasi Dana (Rp)', color='white')
     ax.set_ylabel('Realisasi Dana (Rp)', color='white')
 
